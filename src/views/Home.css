@@ -1,0 +1,32 @@
+/* Home.css */
+
+.product-list {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:'3vh';
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding:'2vh 2vh';
+}
+
+.product-item {
+  color: white;
+  padding: 0.1vh;
+  border: 2px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  width: 12vh;
+  border-radius: 50%;
+  text-align: center;
+  transition: ease-in-out 0.2s;
+  
+}
+
+.product-name {
+  font-weight: bold;
+  color: black;
+}
